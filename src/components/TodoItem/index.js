@@ -4,7 +4,7 @@ import { ListItem, Span } from './styles'
 export const TodoItem = (props) => {
   return (
     <ListItem>
-      <Span>√</Span>
+      <input type='checkbox' />
       <p>{props.text}</p>
       <Span>X</Span>
     </ListItem>

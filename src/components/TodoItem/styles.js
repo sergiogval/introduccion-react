@@ -12,10 +12,20 @@ export const ListItem = styled.li`
   border: solid 1px black;
   `
 
-  export const Span = styled.span`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  cursor: pointer;
-  `
+export const Span = styled.span`
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+cursor: pointer;
+color: white;
+background: red;
+height: 14px;
+width: 14px;
+padding: 0;
+margin: 0;
+margin-top: -7px;
+margin-right: -7px;
+border-radius: 50%;
+font-size: .5rem;
+`
